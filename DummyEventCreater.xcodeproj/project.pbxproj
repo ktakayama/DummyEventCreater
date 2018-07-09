@@ -13,6 +13,7 @@
 		B9F2235320EE5C5200D67F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F2235220EE5C5200D67F35 /* Assets.xcassets */; };
 		B9F2235620EE5C5200D67F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9F2235420EE5C5200D67F35 /* LaunchScreen.storyboard */; };
 		B9F2236120EE5C5200D67F35 /* DummyEventCreaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F2236020EE5C5200D67F35 /* DummyEventCreaterTests.swift */; };
+		B9F2236F20EE5E1200D67F35 /* DummyData in Resources */ = {isa = PBXBuildFile; fileRef = B9F2236E20EE5E1200D67F35 /* DummyData */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B9F2235C20EE5C5200D67F35 /* DummyEventCreaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummyEventCreaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F2236020EE5C5200D67F35 /* DummyEventCreaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyEventCreaterTests.swift; sourceTree = "<group>"; };
 		B9F2236220EE5C5200D67F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F2236E20EE5E1200D67F35 /* DummyData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DummyData; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				B9F2234A20EE5C5000D67F35 /* DummyEventCreater */,
 				B9F2235F20EE5C5200D67F35 /* DummyEventCreaterTests */,
+				B9F2236E20EE5E1200D67F35 /* DummyData */,
 				B9F2234920EE5C5000D67F35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				B9F2235620EE5C5200D67F35 /* LaunchScreen.storyboard in Resources */,
 				B9F2235320EE5C5200D67F35 /* Assets.xcassets in Resources */,
 				B9F2235120EE5C5000D67F35 /* Main.storyboard in Resources */,
+				B9F2236F20EE5E1200D67F35 /* DummyData in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
