@@ -38,7 +38,8 @@ class ViewController: UIViewController {
         eventName: String,
         location: String,
         url: String,
-        memo: String
+        memo: String,
+        recurrence: String
     )
 
     func insertFile(csvFile: NSString) {
@@ -65,7 +66,7 @@ class ViewController: UIViewController {
             print(line)
 
             let a = line.split(separator: ",", omittingEmptySubsequences: false)
-            let csv: CSV = ( String(a[0]), String(a[1]), String(a[2]), String(a[3]), String(a[4]), String(a[5]), String(a[6]), String(a[7]) )
+            let csv: CSV = ( String(a[0]), String(a[1]), String(a[2]), String(a[3]), String(a[4]), String(a[5]), String(a[6]), String(a[7]), String(a[8]) )
 
             let event = EKEvent(eventStore: store)
             event.timeZone = TimeZone.current
@@ -83,6 +84,11 @@ class ViewController: UIViewController {
                 event.startDate = dateFromString(csv.startDate, hour: "00:00")
                 event.endDate = dateFromString(csv.endDate, hour: "00:00")
                 event.isAllDay = true
+            }
+
+            if csv.recurrence.lengthOfBytes(using: .utf8) > 0 {
+                let rule = EKRecurrenceRule(recurrenceWith: .weekly, interval: 1, end: nil)
+                event.addRecurrenceRule(rule)
             }
 
             event.calendar = cal
