@@ -57,7 +57,7 @@ class ViewController: UIViewController {
             try! store.removeCalendar(c, commit: true)
         }
 
-        let defaultSource = calendars.filter { cal in cal.type != .birthday }.first!.source
+        let defaultSource = calendars.filter { cal in cal.type == .local }.first!.source
         let cal = EKCalendar(for: .event, eventStore: store)
         cal.title = calendarName
         cal.source = defaultSource
