@@ -152,9 +152,11 @@
 				TargetAttributes = {
 					B9F2234720EE5C5000D67F35 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 					};
 					B9F2235B20EE5C5200D67F35 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = B9F2234720EE5C5000D67F35;
 					};
 				};
@@ -375,7 +377,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.aill.DummyEventCreater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -393,7 +395,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.aill.DummyEventCreater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -413,7 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.aill.DummyEventCreaterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DummyEventCreater.app/DummyEventCreater";
 			};
@@ -434,7 +436,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.aill.DummyEventCreaterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DummyEventCreater.app/DummyEventCreater";
 			};
